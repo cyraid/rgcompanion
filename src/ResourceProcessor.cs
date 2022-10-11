@@ -107,18 +107,19 @@ namespace RGCompanion.ResourceUtils {
 
       // Iterate through Resources and find SWF_BLOB //
 
-      using (var vi = new ResourceInfo()) {
+      using (var resInfo = new ResourceInfo()) {
 
-        vi.Load(exeFileName);
+        resInfo.Load(exeFileName);
 
-        foreach (ResourceId id in vi.ResourceTypes) {
-          foreach (Resource resource in vi.Resources[id]) {
+        foreach (ResourceId id in resInfo.ResourceTypes) {
+          foreach (Resource resource in resInfo.Resources[id]) {
 
             if (resource.Name.Id.ToInt64() == SWF_BLOB)
               return true;
 
           } // ForEach //
         } // ForEach //
+
       } // Using //
 
       return false;
