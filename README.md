@@ -11,3 +11,13 @@ This Application allows you to replace the Embedded SWF in Ruffle Game, along
 ## Screenshots
 
 ![Screenshot1](/assets/Screenshot1.png?raw=true "Screenshot1")
+
+## Instructions
+
+Copy `ruffle.exe` (or `ruffle_desktop.exe` if you built it yourself) from
+Ruffle Game, and place in the rgcompanion/assets folder as `assets/ruffle_game.exe`.
+If you're not sure you have the right Ruffle, run the exe and if it says
+"Placeholder" you have the right one!
+
+This exe is used to output new executables with the Embedded SWF, Title, and Icon
+replaced.
