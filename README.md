@@ -10,7 +10,7 @@ This Application allows you to replace the Embedded SWF in Ruffle Game, along
 
 ## Screenshots
 
-![Screenshot1](/assets/Screenshot1.png?raw=true "Screenshot1")
+![Screenshot1](/assets/screenshots/Screenshot1.png?raw=true "Screenshot1")
 
 ## Instructions
 
